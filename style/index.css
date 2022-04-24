@@ -18,3 +18,12 @@ body{
     padding-left: 4%;
 
 }
+
+.movieImage{
+    height: 600px;
+    width: 100%;
+}
+.movieImage>img{
+    height: 600px;
+    width: 100%;
+}
