@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style/index.css">
+
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .navbar{
+          
+            height: 60px;
+            display: flex;
+            justify-content: flex-end;
+            background-color: aliceblue;
+            margin: auto;
+        }
+        .navbar>a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            padding: 1.4%;
+            padding-left: 4%;
+
+        }
+        .movieImage{
+            height: 600px;
+            width: 100%;
+        }
+        .movieImage>img{
+            height: 600px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body onload=setTime()>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Signup</a>
+    </div>
+
+    <div class="movieImage">
+        <img src="image/1.jpg" id="data">
+    </div>
+</body>
+<script src="scripts/index.js"></script>
+
+</html>
